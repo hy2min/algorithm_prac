@@ -100,3 +100,45 @@ for i in my_string :
         answer += int(i)
 print(answer)
 
+# 정수 부분
+flo= 69.32
+answer = int(flo)
+print(answer)
+
+# n의 배수
+num=98
+n=2
+if num % n ==0 :
+    answer = 1
+else :
+    answer = 0
+print(answer)
+
+# 문자열의 앞의 n글자
+my_string = "He110W0r1d"
+n = 5
+answer = my_string[:n]
+print(answer)
+
+# 이어 붙인 수
+num_list = [5,7,8,3]
+odd = ''
+even = ''
+for i in num_list :
+    if i % 2 == 1 :
+        odd += str(i)
+    else :
+        even += str(i)
+answer = int(odd) + int(even)
+print(answer)
+
+# flag에 따라 다른 값 반환하기
+a = -4
+b = 7
+flag = False
+if flag == True :
+    answer = a+b
+elif flag == False :
+    answer = a-b
+print(answer)
+
